@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import Blog from "../components/blog/Blog";
+import ContactForm from "../components/contactForm/Contackform";
 import AboutMe from "../components/heroSection/about/AboutMe";
 import HeroSection from "../components/heroSection/HeroSection";
 import MyProjects from "../components/myProjects/MyProjects";
@@ -22,6 +24,8 @@ export default function Home() {
           <AboutMe />
         </div>
         <MyProjects />
+        <Blog />
+        <ContactForm />
       </main>
 
       <footer className={styles.footer}>
