@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.container-background{
+ height: auto;
+  background: linear-gradient(141deg, #d1fae5 0%, #a7f3d0 51%, #6EE7b7 75%, #34d399 100%);
+
+}
+.MuiAppBar-colorDefault {
+    color: black !important;
+    background-color: #9affdd !important;
+    font-weight: 400;
+}

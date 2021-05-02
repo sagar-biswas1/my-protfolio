@@ -1,0 +1,27 @@
+.heroCard{
+
+ /* background-image: url("../images/sagar.png"), linear-gradient(#eb01a5, #d13531);
+     height: 350px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: contain; */
+
+}
+.body{
+     background-image: url("../public/sagar.png"), linear-gradient(117deg, black, #34d399);
+     min-height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: inherit  !important;
+    background-position: right;
+    background-size: contain;
+    background-blend-mode: hard-light;
+    background-clip: content-box;
+    color: white;
+}
+.text{
+    background-color:#0923196b;
+    width:fit-content ;
+    padding: 4%
+}
