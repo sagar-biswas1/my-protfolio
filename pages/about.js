@@ -1,7 +1,14 @@
 import React from "react";
+import AboutMe from "../components/heroSection/about/AboutMe";
 
 const about = () => {
-  return <div>this is about page</div>;
+  return (
+    <div>
+      <div className="p-4">
+        <AboutMe />
+      </div>
+    </div>
+  );
 };
 
 export default about;

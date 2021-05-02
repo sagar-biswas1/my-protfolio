@@ -20,11 +20,8 @@ const AboutMe = () => {
                   borderRadius: 10,
                 }}
               >
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered <a href="#">alteration</a> in
-                some form, by injected humour, or randomised words which dont
-                look even slightly believable. If you are going to use a passage
-                of Lorem Ipsum,
+                I am a passionate Programmer who likes to explore new
+                technologies and try something new with the time being.
               </p>
               <AboutTabs />
             </div>

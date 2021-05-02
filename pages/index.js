@@ -8,6 +8,35 @@ import MyProjects from "../components/myProjects/MyProjects";
 import Skills from "../components/skills/Skills";
 import styles from "../styles/Home.module.css";
 
+const projects = [
+  {
+    name: "Locks draft",
+    image: "/locks.png",
+    url: "https://locks-draft.netlify.app/",
+    clintCode: "https://github.com/sagar-biswas1/locks-craft-client",
+    serverCode: "https://github.com/sagar-biswas1/locks-craft-server",
+  },
+  {
+    name: "Book's Voice",
+    image: "/bookVoice.png",
+    url: "https://book-voice.netlify.app/",
+    clintCode: "https://github.com/sagar-biswas1/book-voice-client",
+    serverCode: "https://github.com/sagar-biswas1/book-voice-server",
+  },
+  {
+    name: "Taxi time",
+    image: "/taxi.png",
+    url: "https://locks-draft.netlify.app/",
+    clintCode: "https://github.com/sagar-biswas1/taxi-time",
+  },
+  {
+    name: "Dream league",
+    image: "/dreamLeague.png",
+    url: "https://locks-draft.netlify.app/",
+    clintCode: "https://github.com/sagar-biswas1/dream-league",
+  },
+];
+
 export default function Home() {
   return (
     <div className={(styles.container, styles.background)}>
@@ -23,23 +52,10 @@ export default function Home() {
         <div className="p-4">
           <AboutMe />
         </div>
-        <MyProjects />
+        <MyProjects projects={projects} />
         <Blog />
         <ContactForm />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 }

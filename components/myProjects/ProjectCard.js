@@ -1,11 +1,14 @@
 import React from "react";
-
+import Image from "next/image";
 const ProjectCard = ({ project }) => {
   const { name, image, url, serverCode, clientCode } = project;
   return (
     <div class="col">
       <div class="card h-100">
-        <img src={image} class="card-img-top" alt="..." />
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          {" "}
+          <img src={image} class="card-img-top" alt="" loading="lazy" />
+        </a>
         <div class="card-body">
           <h5 class="card-title">{name}</h5>
           <p class="card-text">

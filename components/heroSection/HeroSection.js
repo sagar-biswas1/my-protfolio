@@ -14,7 +14,10 @@ const HeroSection = () => {
 
             <p class="card-text ">React developer</p>
             <p> Based in Bangladesh </p>
-            <a href="#" class="card-link btn btn-primary">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1ecQy0myu9lDqjo06sh-vUMD3iXWxVOPn"
+              class="btn btn-primary "
+            >
               Download my resume
             </a>
           </div>
