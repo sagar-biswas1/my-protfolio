@@ -1,9 +1,15 @@
 import React from "react";
-
+import Typical from "react-typical";
 const Experience = () => {
   return (
     <div>
-      <h2> More than 15 projects </h2>
+      <h2>
+        <Typical
+          steps={["More than 10 projects experience.", 1000]}
+          loop={Infinity}
+          wrapper="p"
+        />{" "}
+      </h2>
       <p class="card-text p-2"> Some of the Projects stated here.</p>
       <b>Technology used :</b> react js, react-router-dom, firebase, validator
       package, react-google-maps, bootstrap ,node js , mongodb, express and so

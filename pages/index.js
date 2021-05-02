@@ -15,6 +15,8 @@ const projects = [
     url: "https://locks-draft.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/locks-craft-client",
     serverCode: "https://github.com/sagar-biswas1/locks-craft-server",
+    text: `
+A web site providing all kind of locks smith service. Where users need to login for booking a service. There ase admin panels for both the user and admin. In admin panel admin can create read update and delete data. `,
   },
   {
     name: "Book's Voice",
@@ -22,18 +24,21 @@ const projects = [
     url: "https://book-voice.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/book-voice-client",
     serverCode: "https://github.com/sagar-biswas1/book-voice-server",
+    text: `A book selling website where user can purchase a book . S/he need to login before accessing protected pages. In the admin panel user can see his/her orders details.`,
   },
   {
     name: "Taxi time",
     image: "/taxi.png",
     url: "https://locks-draft.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/taxi-time",
+    text: ` A site where an user can book a vehicle for going one place to another.`,
   },
   {
     name: "Dream league",
     image: "/dreamLeague.png",
     url: "https://locks-draft.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/dream-league",
+    text: `A react routing based project where league data is loaded base on api. `,
   },
 ];
 
@@ -53,7 +58,7 @@ export default function Home() {
           <AboutMe />
         </div>
         <MyProjects projects={projects} />
-        <Blog />
+        {/* <Blog /> */}
         <ContactForm />
       </main>
     </div>

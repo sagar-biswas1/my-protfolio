@@ -6,7 +6,8 @@ const Education = () => {
       <b> Bachelor of Business Administration,</b> <br />
       Major in marketing, University of Chittagong.
       <p>
-        <b>Programming certification :</b> Programming hero
+        <b>Programming certification :</b> Junior full stack web development
+        certification from Programming hero
       </p>
     </div>
   );

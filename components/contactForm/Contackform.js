@@ -26,7 +26,7 @@ export default function ContactForm() {
 
   return (
     <div class="container p-3">
-      <h3 class="m-5 text-center"> Contact with me</h3>
+      <h3 class="m-5 text-center text-gradient-style-two"> Contact with me</h3>
       <form className="contact-form" onSubmit={sendEmail}>
         {/* <input type="hidden" name="contact_number" /> */}
         <label for="exampleFormControlInput1" class="form-label">

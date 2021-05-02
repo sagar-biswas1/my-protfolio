@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 const ProjectCard = ({ project }) => {
-  const { name, image, url, serverCode, clientCode } = project;
+  const { name, image, url, serverCode, clientCode, text } = project;
   return (
     <div class="col">
       <div class="card h-100">
@@ -11,10 +11,7 @@ const ProjectCard = ({ project }) => {
         </a>
         <div class="card-body">
           <h5 class="card-title">{name}</h5>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
+          <p class="card-text">{text}</p>
         </div>
         <div class="d-flex justify-content-between m-3">
           <div>

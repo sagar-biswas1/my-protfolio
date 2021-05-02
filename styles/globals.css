@@ -26,3 +26,39 @@ a {
     background-color: #9affdd !important;
     font-weight: 400;
 }
+
+.animated-button {
+padding: 5px 10px;
+background-image:linear-gradient(100deg, red , orange) ;
+border-radius: 10px;
+border: 1px solid red;
+opacity: 1;
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+color: white;
+animation: spinner4 1000ms linear infinite;
+}
+@keyframes spinner4 {
+to {
+transform: scale(1.5);
+opacity: .5;
+}
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ff8a00 0%, #da1b60 100%);
+   
+  -webkit-background-clip: text;
+font-size: 2rem;
+font-weight: 600;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-style-two {
+  background: linear-gradient(to right, #1600df 0%, #da1b60 100%);
+   
+  -webkit-background-clip: text;
+font-size: 2rem;
+font-weight: 600;
+  -webkit-text-fill-color: transparent;
+}
