@@ -2,7 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 const Experience = () => {
   return (
-    <div>
+    <div class="card p-2">
       <h2>
         <Typical
           steps={["More than 10 projects experience.", 1000]}
@@ -10,11 +10,8 @@ const Experience = () => {
           wrapper="p"
         />{" "}
       </h2>
-      <p class="card-text p-2"> Some of the Projects stated here.</p>
-      <b>Technology used :</b> react js, react-router-dom, firebase, validator
-      package, react-google-maps, bootstrap ,node js , mongodb, express and so
-      on.
-      <div class="accordion" id="accordionExample">
+
+      {/* <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button
@@ -221,7 +218,19 @@ const Experience = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
+      <p>
+        {" "}
+        - Experience in building full-stack projects for the assignment purpose
+        where scored full marks.
+      </p>
+      <p>
+        - In my projects I experimented with express.js, mongodb, mongoose,
+        react.js, bootstrap, next.js , stripe, tailwind css, metarial ui,
+        firebase and some popular npm packages json web token, bcrypt, validator
+        etc.
+      </p>
+      <p>- Provided services related to web design to some of my friends.</p>
     </div>
   );
 };

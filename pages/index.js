@@ -3,6 +3,7 @@ import Image from "next/image";
 import Blog from "../components/blog/Blog";
 import ContactForm from "../components/contactForm/Contackform";
 import AboutMe from "../components/heroSection/about/AboutMe";
+import Technologies from "../components/heroSection/about/Technologies";
 import HeroSection from "../components/heroSection/HeroSection";
 import MyProjects from "../components/myProjects/MyProjects";
 import Skills from "../components/skills/Skills";
@@ -15,8 +16,13 @@ const projects = [
     url: "https://locks-draft.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/locks-craft-client",
     serverCode: "https://github.com/sagar-biswas1/locks-craft-server",
-    text: `
-A web site providing all kind of locks smith service. Where users need to login for booking a service. There ase admin panels for both the user and admin. In admin panel admin can create read update and delete data. `,
+    title: ` Full-stack MERN project.`,
+    points: [
+      "A web site providing all kind of locks smith service. ",
+      "Users need to login for booking a service. ",
+      "There ase admin panels for both the user and admin. ",
+      " In admin panel admin can create read update and delete data.",
+    ],
   },
   {
     name: "Book's Voice",
@@ -24,21 +30,38 @@ A web site providing all kind of locks smith service. Where users need to login 
     url: "https://book-voice.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/book-voice-client",
     serverCode: "https://github.com/sagar-biswas1/book-voice-server",
-    text: `A book selling website where user can purchase a book . S/he need to login before accessing protected pages. In the admin panel user can see his/her orders details.`,
+    title: "Full-stack MERN project.",
+
+    points: [
+      "A book selling website where user can purchase a book.",
+      "User needs to login before accessing protected pages.",
+      "In the admin panel user can see his/her orders details.",
+    ],
   },
   {
     name: "Taxi time",
     image: "/taxi.png",
     url: "https://locks-draft.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/taxi-time",
-    text: ` A site where an user can book a vehicle for going one place to another.`,
+    title: " A react based project.",
+    points: [
+      " A site where an user can book a vehicle for going one place to another.",
+      " Implemented react routing, protective routing, user authentication.",
+      " Google, Facebook, and Email sign-in/login methods available. ",
+    ],
   },
   {
     name: "Dream league",
     image: "/dreamLeague.png",
     url: "https://locks-draft.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/dream-league",
-    text: `A react routing based project where league data is loaded base on api. `,
+    title:
+      "A react routing based project where league data is loaded base on api.",
+    points: [
+      "Users can see information about different types of leagues .",
+      "By clicking on the see-details button they can see specific info based on league id.",
+      "Banner and logo will dynamically changed in league details page.[default banner is set in case there is not banner provided by API]",
+    ],
   },
 ];
 
@@ -51,14 +74,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.mai}>
+      <main className="">
         <HeroSection />
         {/* <Skills /> */}
+        <Technologies />
+
+        <div className="mt-4">
+          <MyProjects projects={projects} />
+        </div>
+        {/* <Blog /> */}
         <div className="p-4">
           <AboutMe />
         </div>
-        <MyProjects projects={projects} />
-        {/* <Blog /> */}
         <ContactForm />
       </main>
     </div>

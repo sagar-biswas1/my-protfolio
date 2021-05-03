@@ -5,7 +5,7 @@ import Typical from "react-typical";
 const AboutMe = () => {
   return (
     <div>
-      <div class="car mb-3">
+      <div class="card mb-3">
         <div class="bg-info">
           <h1
             class="card-title text-center text-gradient fw-bold p-3 animate__animated animate__bounce animate__bounce "
@@ -21,15 +21,17 @@ const AboutMe = () => {
           <div class="col-md-8">
             <div class="card-body">
               <p
-                class="card-text"
+                class="card-text card"
                 style={{
-                  backgroundColor: "aliceblue",
-                  padding: 10,
+                  padding: 4,
                   borderRadius: 10,
                 }}
               >
-                I am a passionate Programmer who likes to explore new
-                technologies and try something new with the time being.
+                Hello, I'm Sagar Biswas. A passionate Programmer who likes to
+                explore new technologies and try something new with the time
+                being. As MERN stack gives a facility to create a flexible and
+                scalable web app, I found it much more interesting to start my
+                programming career.
               </p>
               <AboutTabs />
             </div>
