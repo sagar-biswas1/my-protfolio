@@ -29,7 +29,7 @@ export default function ContactForm() {
       <h3 class="m-5 text-center text-gradient-style-two"> Contact with me</h3>
       <form className="contact-form" onSubmit={sendEmail}>
         {/* <input type="hidden" name="contact_number" /> */}
-        <label for="exampleFormControlInput1" class="form-label">
+        <label for="exampleFormControlInput1" class="form-label text-light">
           Name
         </label>
         <input
@@ -41,7 +41,7 @@ export default function ContactForm() {
           required
         />
         <div className="mb-3">
-          <label for="exampleFormControlInput2" class="form-label">
+          <label for="exampleFormControlInput2" class="form-label text-light">
             Email
           </label>
           <input
@@ -54,7 +54,10 @@ export default function ContactForm() {
           />
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">
+          <label
+            for="exampleFormControlTextarea1"
+            class="form-label text-light"
+          >
             Message
           </label>
           <textarea

@@ -2,9 +2,9 @@ import React from "react";
 import styles from "../styles/Home.module.css";
 const Footer = () => {
   return (
-    <div className="mt-4 bg-light">
+    <div className=" bg-dark">
       <footer className={styles.footer}>
-        Powered by Sagar Biswas
+        <p class="text-white mt-1"> Powered by Sagar Biswas</p>
         <div>
           <a
             href="https://github.com/sagar-biswas1"

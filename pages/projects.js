@@ -3,7 +3,7 @@ import MyProjects from "../components/myProjects/MyProjects";
 
 const allProjects = [
   {
-    name: "Locks draft",
+    name: "Locks Craft",
     image: "/locks.png",
     url: "https://locks-draft.netlify.app/",
     clintCode: "https://github.com/sagar-biswas1/locks-craft-client",

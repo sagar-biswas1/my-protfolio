@@ -6,9 +6,9 @@ const AboutMe = () => {
   return (
     <div>
       <div class="card mb-3">
-        <div class="bg-info">
+        <div class="bg-light">
           <h1
-            class="card-title text-center text-gradient fw-bold p-3 animate__animated animate__bounce animate__bounce "
+            class="card-title text-center text-gradien fw-bold p-3 animate__animated animate__bounce animate__bounce "
             style={{ fontSize: "3rem" }}
           >
             ABOUT ME
