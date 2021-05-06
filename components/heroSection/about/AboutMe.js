@@ -5,23 +5,23 @@ import Typical from "react-typical";
 const AboutMe = () => {
   return (
     <div>
-      <div class="card mb-3">
-        <div class="bg-light">
+      <div className="card mb-3">
+        <div className="bg-light">
           <h1
-            class="card-title text-center text-gradien fw-bold p-3 animate__animated animate__bounce animate__bounce "
+            className="card-title text-center text-gradien fw-bold p-3 animate__animated animate__bounce animate__bounce "
             style={{ fontSize: "3rem" }}
           >
             ABOUT ME
           </h1>
         </div>
-        <div class="row g-0">
-          <div class="col-md-4 m-auto">
-            <img src="/sagar-two.png" alt="..." class=" w-100" />
+        <div className="row g-0">
+          <div className="col-md-4 m-auto">
+            <img src="/sagar-two.png" alt="..." className=" w-100" />
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
+          <div className="col-md-8">
+            <div className="card-body">
               <p
-                class="card-text card"
+                className="card-text card"
                 style={{
                   padding: 4,
                   borderRadius: 10,

@@ -2,12 +2,12 @@ import React from "react";
 
 const Myresume = () => {
   return (
-    <div class="container ">
-      <div class="d-flex justify-content-center">
+    <div className="container ">
+      <div className="d-flex justify-content-center">
         {" "}
         <a
           href="https://drive.google.com/uc?export=download&id=1ecQy0myu9lDqjo06sh-vUMD3iXWxVOPn"
-          class="btn btn-primary  m-3"
+          className="btn btn-primary  m-3"
         >
           Download Resume
         </a>

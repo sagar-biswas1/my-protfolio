@@ -57,7 +57,7 @@ const data = [
 
 const Technologies = () => {
   return (
-    <div class="container">
+    <div className="container">
       <h1
         className="p-2 text-center text-white mt-3 mb-4 fw-bold"
         style={{ textDecoration: "underline" }}
@@ -65,7 +65,7 @@ const Technologies = () => {
         MY EXPERTISE
       </h1>
 
-      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+      <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
         {data.map((data) => (
           <Card data={data} key={data.name} />
         ))}
@@ -77,15 +77,15 @@ const Technologies = () => {
 const Card = ({ data }) => {
   const { name, techKnowledge, image, image2, text } = data;
   return (
-    <div class="flip-card">
-      <div class="col flip-card-inner">
-        <div class="card h-100 flip-card-front card-style-dark">
-          <div class="bg-light">
-            <img src={image} class="card-img-top" alt="..." />
+    <div className="flip-card">
+      <div className="col flip-card-inner">
+        <div className="card h-100 flip-card-front card-style-dark">
+          <div className="bg-light">
+            <img src={image} className="card-img-top" alt="..." />
           </div>
-          <div class="card-body m-2" style={{ background: "#2e2e2e1f" }}>
-            <h5 class="card-title">{name}</h5>
-            <p class="card-text">
+          <div className="card-body m-2" style={{ background: "#2e2e2e1f" }}>
+            <h5 className="card-title">{name}</h5>
+            <p className="card-text">
               <ul>
                 {techKnowledge.map((tech) => (
                   <li key={tech} style={{ listStyle: "none" }}>
@@ -94,7 +94,7 @@ const Card = ({ data }) => {
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="bi bi-arrow-right-circle-fill"
+                      className="bi bi-arrow-right-circle-fill"
                       viewBox="0 0 16 16"
                     >
                       <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
@@ -107,9 +107,9 @@ const Card = ({ data }) => {
           </div>
         </div>
         {/*  */}
-        <div class="flip-card-back d-flex justify-content-center align-items-center">
-          <img src={image2} class="w-100" alt="" />
-          {/* <p class="p-2">{text}</p> */}
+        <div className="flip-card-back d-flex justify-content-center align-items-center">
+          <img src={image2} className="w-100" alt="" />
+          {/* <p className="p-2">{text}</p> */}
         </div>
         {/*  */}
       </div>

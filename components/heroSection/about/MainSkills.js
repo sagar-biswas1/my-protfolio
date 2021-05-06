@@ -3,9 +3,9 @@ import React from "react";
 const MainSkills = () => {
   return (
     <div>
-      <div class="card">
-        <div class="card-body">
-          <p class="card-text">
+      <div className="card">
+        <div className="card-body">
+          <p className="card-text">
             <b> Front End:</b> Javascript , Es6, React , Bootstrap ,Next JS{" "}
             <br />
             <b>Back End :</b> Node , Express <br />

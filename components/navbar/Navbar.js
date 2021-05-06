@@ -4,14 +4,14 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 const Navbar = () => {
   const router = useRouter();
-  console.log("sssssssssss---", router.pathname);
+
   return (
     // ${styles.background}
-    <div class="sticky-top">
-      <nav class={`navbar navbar-expand-lg navbar-dark bg-dark `}>
-        <div class="container-fluid">
+    <div className="sticky-top">
+      <nav className={`navbar navbar-expand-lg navbar-dark bg-dark `}>
+        <div className="container-fluid">
           <Link href="/">
-            <a class="navbar-brand">
+            <a className="navbar-brand">
               <img
                 src="/sagar.png"
                 style={{ height: 40, width: 40, borderRadius: "50%" }}
@@ -19,7 +19,7 @@ const Navbar = () => {
             </a>
           </Link>
           <button
-            class="navbar-toggler text-dark"
+            className="navbar-toggler text-dark"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -27,14 +27,14 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+              <li className="nav-item">
                 <Link href="/">
                   <a
-                    class={`nav-link fs-5 fw-bold ${
+                    className={`nav-link fs-5 fw-bold ${
                       router.pathname === "/" && "active"
                     }`}
                     aria-current="page"
@@ -43,10 +43,10 @@ const Navbar = () => {
                   </a>
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link href="/projects">
                   <a
-                    class={`nav-link fs-5 fw-bold ${
+                    className={`nav-link fs-5 fw-bold ${
                       router.pathname === "/projects" && "active"
                     }`}
                   >
@@ -54,10 +54,10 @@ const Navbar = () => {
                   </a>
                 </Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link href="/blog">
                   <a
-                    class={`nav-link fs-5 fw-bold ${
+                    className={`nav-link fs-5 fw-bold ${
                       router.pathname === "/blog" && "active"
                     }`}
                   >
@@ -65,10 +65,10 @@ const Navbar = () => {
                   </a>
                 </Link>
               </li>{" "}
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link href="/resume">
                   <a
-                    class={`nav-link fs-5 fw-bold ${
+                    className={`nav-link fs-5 fw-bold ${
                       router.pathname === "/resume" && "active"
                     }`}
                   >
@@ -76,10 +76,10 @@ const Navbar = () => {
                   </a>
                 </Link>
               </li>{" "}
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link href="/about">
                   <a
-                    class={`nav-link fs-5 fw-bold ${
+                    className={`nav-link fs-5 fw-bold ${
                       router.pathname === "/about" && "active"
                     }`}
                   >
@@ -87,10 +87,10 @@ const Navbar = () => {
                   </a>
                 </Link>
               </li>{" "}
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link href="/contact">
                   <a
-                    class={`nav-link fs-5 fw-bold ${
+                    className={`nav-link fs-5 fw-bold ${
                       router.pathname === "/contact" && "active"
                     }`}
                   >

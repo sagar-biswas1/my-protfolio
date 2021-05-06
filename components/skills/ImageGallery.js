@@ -89,7 +89,7 @@ export default function ImageGridList() {
       <GridList cellHeight={150} className={classes.gridList} cols={3}>
         {tileData.map((tile) => (
           <GridListTile key={tile.img} cols={tile.cols || 1}>
-            <img src={tile.img} alt={tile.title} class="w-100 p-3" />
+            <img src={tile.img} alt={tile.title} className="w-100 p-3" />
           </GridListTile>
         ))}
       </GridList>

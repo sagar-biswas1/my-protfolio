@@ -116,7 +116,7 @@ const allProjects = [
 
 const projects = () => {
   return (
-    <div class="container-background">
+    <div className="container-background">
       <MyProjects projects={allProjects} />
     </div>
   );
