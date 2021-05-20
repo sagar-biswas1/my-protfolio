@@ -27,7 +27,7 @@ const allProjects = [
       "A user can create his/her account. On creation s/he will get a welcome message though his/her email. ",
       "In case one forgets his password s/he can also change his password after getting a confirmation link through email (sendgrid is integrated). ",
       "Users can publish their posts. They can also delete their posts. There is a search functionality for searching the users by name.",
-      "In case one User follow others s/he can chat also chat with them in real time(Pusher is integrated here.)",
+      "In case one User follow others s/he can also be able to chat with them in real time (Pusher is integrated here).",
     ],
   },
   {
