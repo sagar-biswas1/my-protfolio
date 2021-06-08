@@ -11,7 +11,7 @@ const ProjectCard = ({ project, i }) => {
           <div className="row g-0">
             <div className="col-md-6 d-flex justify-content-center align-items-center">
               <a href={url} target="_blank" rel="noopener noreferrer">
-                <img src={image} className="w-100 " alt="..." />
+                <img src={image} className="w-100 p-4" alt="..." />
               </a>
             </div>
             <div className="col-md-6">
@@ -193,7 +193,7 @@ const ProjectCard = ({ project, i }) => {
             <div className="col-md-6 d-flex justify-content-center align-items-center">
               <a href={url} target="_blank" rel="noopener noreferrer">
                 {" "}
-                <img src={image} className="w-100 " alt="..." />
+                <img src={image} className="w-100 p-4" alt="..." />
               </a>
             </div>
           </div>

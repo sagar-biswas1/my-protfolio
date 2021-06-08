@@ -95,24 +95,3 @@ export default function ScrollableTabsButtonForce() {
     </div>
   );
 }
-
-// <AppBar position="static">
-//         <Tabs
-//           value={value}
-//           onChange={handleChange}
-//           aria-label="simple tabs example"
-//         >
-//           <Tab label="Main Skills" {...a11yProps(0)} />
-//           <Tab label="Project Experience" {...a11yProps(1)} />
-//           <Tab label="Education and certification" {...a11yProps(2)} />
-//         </Tabs>
-//       </AppBar>
-//       <TabPanel value={value} index={0}>
-//         <MainSkills />
-//       </TabPanel>
-//       <TabPanel value={value} index={1}>
-//         <Experience />
-//       </TabPanel>
-//       <TabPanel value={value} index={2}>
-//         <Education />
-//       </TabPanel>

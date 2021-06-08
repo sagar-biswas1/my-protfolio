@@ -21,7 +21,8 @@ const projects = [
       "A web site providing all kind of locks smith service. ",
       "Users need to login for booking a service. ",
       "There ase admin panels for both the user and admin. ",
-      " In admin panel admin can create read update and delete data.",
+      "In admin panel admin can create read update and delete data.",
+      "Technology used : React js, Router, Firebase Authentication, Bootstrap, Node js, MongoDB, Express, Heroku, Netlify, Stripe.",
     ],
   },
   {
@@ -36,6 +37,24 @@ const projects = [
       "In case one forgets his password s/he can also change his password after getting a confirmation link through email (sendgrid is integrated). ",
       "Users can publish their posts. They can also delete their posts. There is a search functionality for searching the users by name.",
       "In case one User follow others s/he can also be able to chat with them in real time(Pusher is integrated here).",
+      "Technology used: React js, Router, Bootstrap, Node js, MongoDB, Nodemailer, Express, Heroku, Vercel, JWT Auth, Bcryptjs, Cloudinary, Pusher. ",
+    ],
+  },
+  {
+    name: "University Department Management",
+    image: "/dept-management.png",
+    url: "https://unimanagement-cfb8e.web.app/",
+    clintCode:
+      "https://github.com/sagar-biswas1/university-department-management/tree/main",
+
+    title: "A team Project on MERN stack.",
+
+    points: [
+      "Students can see their class routine, class rooms and all.",
+      "Teachers can see their class schedules, room and total attendance in the class.",
+      "Both teachers and students can read books from library. They can also see the list of books they have read and books they are reading.",
+      "To access dashboard student or teacher must login with their email.",
+      "Technology used: React js, React-Router-Dom,Redux,React-Redux,Redux-Thunk,ReCharts, Bootstrap,Firebase",
     ],
   },
   {
@@ -50,6 +69,7 @@ const projects = [
       "A book selling website where user can purchase a book.",
       "User needs to login before accessing protected pages.",
       "In the admin panel user can see his/her orders details.",
+      "Technology used: React.js, Node.js, Express.js, Firebase, MongoDB, Bootstrap, Heroku, Netlify. ",
     ],
   },
   {
@@ -62,6 +82,7 @@ const projects = [
       " A site where an user can book a vehicle for going one place to another.",
       " Implemented react routing, protective routing, user authentication.",
       " Google, Facebook, and Email sign-in/login methods available. ",
+      "Technology used: React.js, Firebase Bootstrap, Netlify. ",
     ],
   },
   {

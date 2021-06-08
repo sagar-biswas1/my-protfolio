@@ -66,7 +66,7 @@ const InfoCard = () => {
             </p>
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1ecQy0myu9lDqjo06sh-vUMD3iXWxVOPn"
+              href="https://drive.google.com/uc?export=download&id=1VfGu_r2emPH17PFGbvma0DGxkWFN-fQ5"
               className=" animated-butto btn btn-primary"
               style={{ cursor: "pointer" }}
             >

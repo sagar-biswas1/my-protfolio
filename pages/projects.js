@@ -31,6 +31,22 @@ const allProjects = [
     ],
   },
   {
+    name: "University Department Management",
+    image: "/dept-management.png",
+    url: "https://unimanagement-cfb8e.web.app/",
+    clintCode:
+      "https://github.com/sagar-biswas1/university-department-management/tree/main",
+
+    title: "A team Project.",
+
+    points: [
+      "Students can see their class routine, class rooms and all.",
+      "Teachers can see their class schedules, room and total attendance in the class.",
+      "Both teachers and students can read books from library. They can also see the list of books they have read and books they are reading.",
+      "To access dashboard student or teacher must login with their email.",
+    ],
+  },
+  {
     name: "Book's Voice",
     image: "/bookVoice.png",
     url: "https://book-voice.netlify.app/",

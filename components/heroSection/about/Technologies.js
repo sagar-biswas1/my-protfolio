@@ -4,7 +4,14 @@ import Skills from "../../skills/Skills";
 const data = [
   {
     name: "Frontend",
-    techKnowledge: ["Javascript", "Es6", "React", "Bootstrap", "Next JS"],
+    techKnowledge: [
+      "Javascript",
+      "Es6",
+      "React",
+      "Redux",
+      "Next JS",
+      "Bootstrap",
+    ],
     image: "/bg-1.png",
     image2: "/img1.png",
     text: `React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.`,
@@ -26,13 +33,13 @@ const data = [
   {
     name: "Familiar-with",
     techKnowledge: [
+      "Graphql",
+      "React Native",
       "Metarial UI",
       "Tailwind Css",
       "Google Map",
-
-      " Ghost CMS",
+      "Ghost CMS",
       "Wordpress",
-      "React Native",
     ],
     image2: "/img3.png",
     image: "/bg-2.png",
@@ -40,7 +47,7 @@ const data = [
   },
   {
     name: "Backend",
-    techKnowledge: ["Node", "Express", "JWT Auth", "Hash Password "],
+    techKnowledge: ["Node", "Express", "JWT Auth", "Bcryptjs"],
     image: "/bg-4.png",
     image2: "/img4.png",
     text: `JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.`,
@@ -109,7 +116,6 @@ const Card = ({ data }) => {
         {/*  */}
         <div className="flip-card-back d-flex justify-content-center align-items-center">
           <img src={image2} className="w-100" alt="" />
-          {/* <p className="p-2">{text}</p> */}
         </div>
         {/*  */}
       </div>
